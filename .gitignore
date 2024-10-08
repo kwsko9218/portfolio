@@ -1,0 +1,8 @@
+*.map
+node_modules
+ssl
+log
+.env
+.vscode
+.prettierrc.json
+.stylelintrc.json

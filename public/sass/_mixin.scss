@@ -1,0 +1,129 @@
+@use 'variables' as *;
+
+@mixin breakPoint($key) {
+  @media #{map-get($breakpoints, $key)} {
+    @content;
+  }
+}
+@mixin bg-base {
+  background-color: $base-color;
+  color: $darkest-color;
+}
+@mixin bg-dark {
+  background-color: $dark-color;
+  color: $lightest-color;
+}
+@mixin bg-light {
+  background-color: $light-color;
+  color: $darkest-color;
+}
+@mixin container {
+  margin: 0 auto;
+  padding: 0 $spacing-1;
+}
+@mixin pc-container {
+  max-width: $pc-content-width;
+  margin: 0 auto;
+  padding: 0 $spacing-1-half;
+}
+@mixin flex-center-both {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-center-x {
+  display: flex;
+  justify-content: center;
+}
+@mixin flex-center-y {
+  display: flex;
+  align-items: center;
+}
+@mixin position-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+@mixin absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@mixin absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@mixin absolute-center-x {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@mixin absolute-center-y {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@mixin zoom-image($scale: 1.1) {
+  transform: scale($scale);
+  transition: $ease-out-quart 0.5s;
+}
+@mixin opacity-transition {
+  opacity: 0.8;
+  transition: $ease-out-quart 0.5s;
+}
+@mixin placeholder {
+  opacity: 0.8;
+  color: $darkest-color;
+  font-size: 1.2rem;
+  @include breakPoint('tablet') {
+    font-size: 1.4rem;
+  }
+}
+@mixin fade-in($duration: 1s, $delay: 0s, $fill-mode: backwards) {
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  animation: fade-in $duration $ease-out-quart $delay $fill-mode;
+}
+@mixin fade-in-from-bottom($duration: 1s, $delay: 0s, $fill-mode: backwards) {
+  @keyframes fade-in-from-bottom {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  animation: fade-in-from-bottom $duration $ease-out-quart $delay $fill-mode;
+}
+@mixin display-title($duration: 1s, $delay: 0s) {
+  @keyframes display-title {
+    0% {
+      transform: translateY(110%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  animation: display-title $duration $ease-out-quart $delay backwards;
+}
+@mixin level-display($duration: 2s, $delay: 0s) {
+  @keyframes level-display {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  animation: level-display $duration $ease-out-quart $delay forwards;
+}

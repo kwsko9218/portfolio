@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head prefix="og: https://ogp.me/ns#">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kwsko&apos;s Portfolio</title>
+    <meta name="description" content="Frontend Engineer kwskoのポートフォリオです。" />
+    <meta property="og:title" content="kwsko's Portfolio" />
+    <meta property="og:description" content="Frontend Engineer kwskoのポートフォリオです。" />
+    <meta property="og:image" content="https://kwsko.com/images/ogp.jpg" />
+    <meta property="og:url" content="https://kwsko.com/" />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/destyle.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" />
+    <link rel="stylesheet" href="css/index.min.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="android-chrome-256x256.png" />
+  </head>
+
+  <body>
+    <header id="header" class="header">
+      <div class="header__container">
+        <nav class="gnav" aria-label="グローバルナビゲーション">
+          <ol id="gnav__items" class="gnav__items">
+            <li class="gnav__item">
+              <a class="gnav__link" href="#top" aria-label="Homeセクションへ移動"><span class="gnav__text">Home</span></a>
+            </li>
+            <li class="gnav__item">
+              <a class="gnav__link" href="#about" aria-label="Aboutセクションへ移動"><span class="gnav__text">About</span></a>
+            </li>
+            <li class="gnav__item">
+              <a class="gnav__link" href="#skills" aria-label="Skillsセクションへ移動"><span class="gnav__text">Skills</span></a>
+            </li>
+            <li class="gnav__item">
+              <a class="gnav__link" href="#works" aria-label="Worksセクションへ移動"><span class="gnav__text">Works</span></a>
+            </li>
+            <li class="gnav__item">
+              <a class="gnav__link" href="#contact" aria-label="Contactセクションへ移動"><span class="gnav__text">Contact</span></a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div id="top" class="top" data-info="target-section">
+        <div class="top__inner">
+          <h1 class="top__title" aria-label="Frontend Engineer kwsko's Portfolio">
+            <span class="top__title--small">
+              <span class="top__title--animated">F</span>
+              <span class="top__title--animated">r</span>
+              <span class="top__title--animated">o</span>
+              <span class="top__title--animated">n</span>
+              <span class="top__title--animated">t</span>
+              <span class="top__title--animated">e</span>
+              <span class="top__title--animated">n</span>
+              <span class="top__title--animated">d</span>
+              <span class="top__title--animated">&nbsp;</span>
+              <span class="top__title--animated">E</span>
+              <span class="top__title--animated">n</span>
+              <span class="top__title--animated">g</span>
+              <span class="top__title--animated">n</span>
+              <span class="top__title--animated">e</span>
+              <span class="top__title--animated">e</span>
+              <span class="top__title--animated">r</span>
+            </span>
+            <span class="top__title--large">
+              <span class="top__title--animated">k</span>
+              <span class="top__title--animated">w</span>
+              <span class="top__title--animated">s</span>
+              <span class="top__title--animated">k</span>
+              <span class="top__title--animated">o</span>
+              <span class="top__title--animated">&apos;</span>
+              <span class="top__title--animated">s</span>
+              <span class="top__title--animated">&nbsp;</span>
+              <span class="top__title--animated">P</span>
+              <span class="top__title--animated">o</span>
+              <span class="top__title--animated">r</span>
+              <span class="top__title--animated">t</span>
+              <span class="top__title--animated">f</span>
+              <span class="top__title--animated">o</span>
+              <span class="top__title--animated">l</span>
+              <span class="top__title--animated">i</span>
+              <span class="top__title--animated">o</span>
+            </span>
+          </h1>
+        </div>
+      </div>
+      <div id="bottom" class="bottom">
+        <section id="about" class="section about" data-info="target-section">
+          <div class="section__container">
+            <h2 data-visible="false">About</h2>
+            <div class="about__detail">
+              <div class="about__image-area" data-visible="false">
+                <figure class="about__figure">
+                  <picture>
+                    <source media="(max-width: 600px)" srcset="images/sp/img_about_01.webp" type="image/webp" />
+                    <source srcset="images/pc/img_about_01.webp" type="image/webp" />
+                    <source media="(max-width: 600px)" srcset="images/sp/img_about_01.jpg 1x, images/sp/img_about_01@2x.jpg 2x" />
+                    <source srcset="images/pc/img_about_01.jpg 1x, images/pc/img_about_01@2x.jpg 2x" />
+                    <img src="images/pc/img_about_01.jpg" alt="愛用のフクロウのイラスト" loading="lazy" decoding="async" />
+                  </picture>
+                </figure>
+              </div>
+              <div class="about__text-area" data-visible="false">
+                <p>
+                  1984年生まれ、北九州市在住のフロントエンドエンジニアです。<br />
+                  立命館大学を卒業後、道を求めて禅寺で修行するなど、日本中を旅して回りました。<br />
+                  適職を求めて大工と総務を経験後、現在は天職と思えるエンジニアをしています。
+                </p>
+                <p>
+                  エンジニア歴は5年を越え、Webアプリケーションの開発とDB関連の業務を経験後、複数の上場企業様のコーポレートサイトの運用、構築案件の開発全般を担当してきました。<br />
+                  WordPressをはじめとした多くのCMS環境での開発経験があり、SEO対策およびウェブアクセシビリティへ配慮したサイト制作と自動化ツールの作成を得意としています。
+                </p>
+                <p>基本情報技術者、2級ウェブデザイン技能士、ウェブ解析士、統計検定3級などの資格を保持、趣味はテニスとキャンプで、最近のブームはLCP対策です。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="skills" class="section skills" data-info="target-section">
+          <div class="section__container">
+            <h2 data-visible="false">Skills</h2>
+            <p class="section__lead-text" data-visible="false">
+              スキルレベルの自己評価です。<br />
+              GPT-4（生成AI）に「あなたはプロのフロントエンドエンジニアです。○○○のスキルのレベル感について、一般的に開発の現場で求められる範囲で、最低レベルを10%、最高レベルを100%として、10%区切りで端的に設定してください」というプロンプトを入力して得た基準に基づいています。
+            </p>
+            <section class="skills__category">
+              <h3 class="skills__category-title" data-visible="false">Frontend</h3>
+              <dl class="skills__items">
+                <div class="skills__item" data-visible="false">
+                  <dt class="skills__name">HTML Living Standard</dt>
+                  <dd class="skills__level"><span class="skills__level--animated skills__level--html">80%</span></dd>
+                </div>
+                <div class="skills__item" data-visible="false">
+                  <dt class="skills__name">CSS3</dt>
+                  <dd class="skills__level"><span class="skills__level--animated skills__level--css">80%</span></dd>
+                </div>
+                <div class="skills__item" data-visible="false">
+                  <dt class="skills__name">Sass</dt>
+                  <dd class="skills__level"><span class="skills__level--animated skills__level--sass">60%</span></dd>
+                </div>
+                <div class="skills__item" data-visible="false">
+                  <dt class="skills__name">JavaScript</dt>
+                  <dd class="skills__level"><span class="skills__level--animated skills__level--js">60%</span></dd>
+                </div>
+                <div class="skills__item" data-visible="false">
+                  <dt class="skills__name">JQuery</dt>
+                  <dd class="skills__level"><span class="skills__level--animated skills__level--jquery">70%</span></dd>
+                </div>
+                <div class="skills__item" data-visible="false">
+                  <dt class="skills__name">Vue.js</dt>
+                  <dd class="skills__level"><span class="skills__level--animated skills__level--vue">30%</span></dd>
+                </div>
+                <div class="skills__item" data-visible="false">
+                  <dt class="skills__name">Google Apps Script</dt>
+                  <dd class="skills__level"><span class="skills__level--animated skills__level--gas">60%</span></dd>
+                </div>
+              </dl>
+            </section>
+            <section class="skills__category">
+              <h3 class="skills__category-title" data-visible="false">Backend</h3>
+              <dl class="skills__items" data-visible="false">
+                <div class="skills__item" data-visible="false">
+                  <dt class="skills__name">PHP</dt>
+                  <dd class="skills__level"><span class="skills__level--animated skills__level--php">30%</span></dd>
+                </div>
+                <div class="skills__item" data-visible="false">
+                  <dt class="skills__name">node.js</dt>
+                  <dd class="skills__level"><span class="skills__level--animated skills__level--node">40%</span></dd>
+                </div>
+                <div class="skills__item" data-visible="false">
+                  <dt class="skills__name">Express.js</dt>
+                  <dd class="skills__level"><span class="skills__level--animated skills__level--express">40%</span></dd>
+                </div>
+                <div class="skills__item" data-visible="false">
+                  <dt class="skills__name">Java</dt>
+                  <dd class="skills__level"><span class="skills__level--animated skills__level--java">20%</span></dd>
+                </div>
+                <div class="skills__item" data-visible="false">
+                  <dt class="skills__name">Python</dt>
+                  <dd class="skills__level"><span class="skills__level--animated skills__level--python">20%</span></dd>
+                </div>
+              </dl>
+            </section>
+            <section class="skills__category">
+              <h3 class="skills__category-title" data-visible="false">Other</h3>
+              <dl class="skills__items" data-visible="false">
+                <div class="skills__item" data-visible="false">
+                  <dt class="skills__name">Git/GitHub</dt>
+                  <dd class="skills__level"><span class="skills__level--animated skills__level--git">60%</span></dd>
+                </div>
+                <div class="skills__item" data-visible="false">
+                  <dt class="skills__name">WordPress</dt>
+                  <dd class="skills__level"><span class="skills__level--animated skills__level--wordpress">50%</span></dd>
+                </div>
+                <div class="skills__item" data-visible="false">
+                  <dt class="skills__name">Photoshop</dt>
+                  <dd class="skills__level"><span class="skills__level--animated skills__level--photoshop">60%</span></dd>
+                </div>
+                <div class="skills__item" data-visible="false">
+                  <dt class="skills__name">Office</dt>
+                  <dd class="skills__level"><span class="skills__level--animated skills__level--office">70%</span></dd>
+                </div>
+                <div class="skills__item" data-visible="false">
+                  <dt class="skills__name">Apache</dt>
+                  <dd class="skills__level"><span class="skills__level--animated skills__level--apache">30%</span></dd>
+                </div>
+                <div class="skills__item" data-visible="false">
+                  <dt class="skills__name">CentOS</dt>
+                  <dd class="skills__level"><span class="skills__level--animated skills__level--cent">30%</span></dd>
+                </div>
+              </dl>
+            </section>
+          </div>
+        </section>
+        <section id="works" class="section works" data-info="target-section">
+          <div class="section__container">
+            <h2 data-visible="false">Works</h2>
+            <p class="section__lead-text" data-visible="false">これまでの開発実績の一例となります。<br />クライアント様の機密情報を保護する必要がある内容について、特定を避けるための処理をしている点、ご理解いただけますと幸いです。</p>
+            <ul class="works__items">
+              <li class="works__item">
+                <figure class="works__figure" data-visible="false">
+                  <picture>
+                    <source media="(min-width: 1025px)" srcset="images/pc/img_works_01.webp" type="image/webp" />
+                    <source media="(min-width: 601px)" srcset="images/tab/img_works_01.webp" type="image/webp" />
+                    <source srcset="images/sp/img_works_01.webp" type="image/webp" />
+                    <source media="(min-width: 1025px)" srcset="images/pc/img_works_01.jpg 1x, images/pc/img_works_01@2x.jpg 2x" />
+                    <source media="(min-width: 601px)" srcset="images/tab/img_works_01.jpg 1x, images/tab/img_works_01@2x.jpg 2x" />
+                    <source srcset="images/sp/img_works_01.jpg 1x, images/sp/img_works_01@2x.jpg 2x" />
+                    <img
+                      class="works__image works__button"
+                      src="images/sp/img_works_01.jpg"
+                      alt="カーキを基調としたポートフォリオサイトのファーストビューです。クリックすると詳細な情報が確認できます。"
+                      loading="lazy"
+                      decoding="async"
+                      role="button"
+                      tabindex="0"
+                      data-modal-id="modal-1"
+                    />
+                  </picture>
+                  <figcaption class="works__figcaption">
+                    kwsko&apos;s Portfolio
+                    <ul class="works__tags">
+                      <li class="works__tag">コーディング</li>
+                      <li class="works__tag">デザイン</li>
+                      <li class="works__tag">Node.js</li>
+                      <li class="works__tag">Express.js</li>
+                      <li class="works__tag">CentOS</li>
+                    </ul>
+                  </figcaption>
+                </figure>
+                <div id="modal-1" class="modal" aria-modal="true" role="dialog">
+                  <button class="modal__button" aria-label="閉じるボタン"><span class="modal__button--close"></span></button>
+                  <div class="modal__container">
+                    <section class="project">
+                      <div class="project__inner">
+                        <h3 class="project__title">kwsko&apos;s Portfolio</h3>
+                        <div class="project__summary">
+                          <p>
+                            本ページでは、アニメーションやインタラクティブな機能を、jQueryなどの外部ライブラリに頼らず、CSS（SASS）とJavaScript（標準API含む）のみで実装しています。従来のスクロールイベントリスナーによる高負荷な処理ではなく、Intersection
+                            Observer APIを使用することで、より軽量でカスタマイズ性の高いWebサイトを目指しました。
+                          </p>
+                          <p>
+                            また、お問い合わせフォームにはFetch
+                            APIを利用し、非同期通信で実装しています。当初はPaaSでデプロイしましたが、SMTPポートの開放に問題があったため、VPS上にCentOSとExpress.jsを用いたWebサーバー環境を構築しました。不慣れな分野で苦労しましたが、サーバーサイドのセキュリティについて学び、実践する良い機会となりました。
+                          </p>
+                          <a class="project__link project__icon-external" href="https://github.com/kwsko9218/portfolio" target="_blank" rel="noopener noreferrer">GitHubのリポジトリ</a>
+                        </div>
+                        <section class="project__info">
+                          <h4 class="project__info-title">ポイント</h4>
+                          <ul class="project__info-items">
+                            <li class="project__info-item">マークアップスキル（セマンティックコーディング、SEO対策、アクセシビリティへの配慮など）</li>
+                            <li class="project__info-item">ページ表示速度の改善</li>
+                            <li class="project__info-item">カーキを基調としたシックなデザイン</li>
+                            <li class="project__info-item">仮想サーバー上に環境構築</li>
+                            <li class="project__info-item">お問い合わせフォームのセキュリティ対策</li>
+                          </ul>
+                        </section>
+                        <section class="project__info">
+                          <h4 class="project__info-title">言語・ツール・環境</h4>
+                          <p>HTML, CSS(SASS), JavaScript, Node.js, Express.js, Git/GitHub, VSCode, Figma, GIMP, CentOS, PaaS</p>
+                        </section>
+                        <section class="project__info">
+                          <h4 class="project__info-title">ギャラリー</h4>
+                          <ul class="project__thumbnails">
+                            <li class="project__thumbnail">
+                              <figure class="project__figure">
+                                <picture>
+                                  <source media="(max-width: 600px)" srcset="images/sp/img_project_01-01.webp" type="image/webp" />
+                                  <source srcset="images/pc/img_project_01-01.webp" type="image/webp" />
+                                  <source media="(max-width: 600px)" srcset="images/sp/img_project_01.jpg, images/sp/img_project_01-01@2x.jpg 2x" />
+                                  <source srcset="images/pc/img_project_01-01.jpg 1x, images/pc/img_project_01-01@2x.jpg 2x" />
+                                  <img class="project__image" src="images/pc/img_project_01-01.jpg" alt="カーキを基調としたポートフォリオサイトのファーストビューです。" loading="lazy" decoding="async" role="button" tabindex="0" />
+                                </picture>
+                                <figcaption class="project__figcaption">ファーストビュー</figcaption>
+                              </figure>
+                            </li>
+                            <li class="project__thumbnail">
+                              <figure class="project__figure">
+                                <picture>
+                                  <source media="(max-width: 600px)" srcset="images/sp/img_project_01-02.webp" type="image/webp" />
+                                  <source srcset="images/pc/img_project_01-02.webp" type="image/webp" />
+                                  <source media="(max-width: 600px)" srcset="images/sp/img_project_01.jpg, images/sp/img_project_01-02@2x.jpg 2x" />
+                                  <source srcset="images/pc/img_project_01-02.jpg 1x, images/pc/img_project_01-02@2x.jpg 2x" />
+                                  <img
+                                    class="project__image"
+                                    src="images/pc/img_project_01-02.jpg"
+                                    alt="デスクトップ表示でのPageSpeed Insightsの評価です。パフォーマンス99 ユーザー補助100 おすすめの方法100 SEO100"
+                                    loading="lazy"
+                                    decoding="async"
+                                    role="button"
+                                    tabindex="0"
+                                  />
+                                </picture>
+                                <figcaption class="project__figcaption">デスクトップ表示でのPageSpeed Insightsの評価</figcaption>
+                              </figure>
+                            </li>
+                            <li class="project__thumbnail">
+                              <figure class="project__figure">
+                                <picture>
+                                  <source media="(max-width: 600px)" srcset="images/sp/img_project_01-03.webp" type="image/webp" />
+                                  <source srcset="images/pc/img_project_01-03.webp" type="image/webp" />
+                                  <source media="(max-width: 600px)" srcset="images/sp/img_project_01.jpg, images/sp/img_project_01-03@2x.jpg 2x" />
+                                  <source srcset="images/pc/img_project_01-03.jpg 1x, images/pc/img_project_01-03@2x.jpg 2x" />
+                                  <img
+                                    class="project__image"
+                                    src="images/pc/img_project_01-03.jpg"
+                                    alt="携帯電話表示でのPageSpeed Insightsの評価です。パフォーマンス94 ユーザー補助100 おすすめの方法100 SEO100"
+                                    loading="lazy"
+                                    decoding="async"
+                                    role="button"
+                                    tabindex="0"
+                                  />
+                                </picture>
+                                <figcaption class="project__figcaption">携帯電話表示でのPageSpeed Insightsの評価</figcaption>
+                              </figure>
+                            </li>
+                          </ul>
+                          <div class="project__large-image-wrap"></div>
+                        </section>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </li>
+              <li class="works__item">
+                <figure class="works__figure" data-visible="false">
+                  <picture>
+                    <source media="(min-width: 1025px)" srcset="images/pc/img_works_02.webp" type="image/webp" />
+                    <source media="(min-width: 601px)" srcset="images/tab/img_works_02.webp" type="image/webp" />
+                    <source srcset="images/sp/img_works_02.webp" type="image/webp" />
+                    <source media="(min-width: 1025px)" srcset="images/pc/img_works_02.jpg 1x, images/pc/img_works_02@2x.jpg 2x" />
+                    <source media="(min-width: 601px)" srcset="images/tab/img_works_02.jpg 1x, images/tab/img_works_02@2x.jpg 2x" />
+                    <source srcset="images/sp/img_works_02.jpg 1x, images/sp/img_works_02@2x.jpg 2x" />
+                    <img
+                      class="works__image works__button"
+                      src="images/sp/img_works_02.jpg"
+                      alt="特定を避けるためにぼかしをいれたA社コーポレートサイトのファーストビューです。クリックすると詳細な情報が確認できます。"
+                      loading="lazy"
+                      decoding="async"
+                      role="button"
+                      tabindex="0"
+                      data-modal-id="modal-2"
+                    />
+                  </picture>
+                  <figcaption class="works__figcaption">
+                    A社 コーポレートサイト
+                    <ul class="works__tags">
+                      <li class="works__tag">構築</li>
+                      <li class="works__tag">リニューアル</li>
+                      <li class="works__tag">コーディング</li>
+                      <li class="works__tag">Node.js</li>
+                      <li class="works__tag">jQuery</li>
+                    </ul>
+                  </figcaption>
+                </figure>
+                <div id="modal-2" class="modal" aria-modal="true" role="dialog">
+                  <div class="modal__container">
+                    <button class="modal__button" aria-label="閉じるボタン"><span class="modal__button--close"></span></button>
+                    <section class="project">
+                      <div class="project__inner">
+                        <h3 class="project__title">A社 コーポレートサイトのフルリニューアル</h3>
+                        <div class="project__summary">
+                          <p>
+                            A社コーポレートサイトのフルリニューアル案件にて、開発業務を担当しました。<br />
+                            サイト全体のページ数は、50ページ弱とリニューアルとしての規模は大きくありませんが、構築から量産までを一貫して対応しました。
+                          </p>
+                        </div>
+                        <section class="project__info">
+                          <h4 class="project__info-title">担当</h4>
+                          <ul class="project__info-items">
+                            <li class="project__info-item">与件調査と開発工数見積もり</li>
+                            <li class="project__info-item">ガイドラインレビュー</li>
+                            <li class="project__info-item">CSS設計</li>
+                            <li class="project__info-item">開発（構築から量産までのコーディングとテスト、.htaccessの作成、Git管理）</li>
+                          </ul>
+                        </section>
+                        <section class="project__info">
+                          <h4 class="project__info-title">成果・実績</h4>
+                          <ul class="project__info-items">
+                            <li class="project__info-item">開発業務の90%以上を単独で遂行しました。</li>
+                            <li class="project__info-item">共通箇所をモジュール化する提案が受け入れられ、CSS設計から実装、モジュールページの作成を担当、効率的な運用基盤を整えました。</li>
+                            <li class="project__info-item">ウェブアクセシビリティ達成基準のレベルAに可能な限り対応しました。</li>
+                          </ul>
+                        </section>
+                        <section class="project__info">
+                          <h4 class="project__info-title">言語・ツール・環境</h4>
+                          <p>HTML, CSS, JavaScript, jQuery, Node.js, Git, WinSCP, VSCode, Photoshop, XD, BackLog</p>
+                        </section>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </li>
+              <li class="works__item">
+                <figure class="works__figure" data-visible="false">
+                  <picture>
+                    <source media="(min-width: 1025px)" srcset="images/pc/img_works_03.webp" type="image/webp" />
+                    <source media="(min-width: 601px)" srcset="images/tab/img_works_03.webp" type="image/webp" />
+                    <source srcset="images/sp/img_works_03.webp" type="image/webp" />
+                    <source media="(min-width: 1025px)" srcset="images/pc/img_works_03.jpg 1x, images/pc/img_works_03@2x.jpg 2x" />
+                    <source media="(min-width: 601px)" srcset="images/tab/img_works_03.jpg 1x, images/tab/img_works_03@2x.jpg 2x" />
+                    <source srcset="images/sp/img_works_03.jpg 1x, images/sp/img_works_03@2x.jpg 2x" />
+                    <img
+                      class="works__image works__button"
+                      src="images/sp/img_works_03.jpg"
+                      alt="特定を避けるためにぼかしをいれたB社ランディングページのファーストビューです。クリックすると詳細な情報が確認できます。"
+                      loading="lazy"
+                      decoding="async"
+                      role="button"
+                      tabindex="0"
+                      data-modal-id="modal-3"
+                    />
+                  </picture>
+                  <figcaption class="works__figcaption">
+                    B社 ランディングページ
+                    <ul class="works__tags">
+                      <li class="works__tag">構築</li>
+                      <li class="works__tag">LP</li>
+                      <li class="works__tag">コーディング</li>
+                      <li class="works__tag">jQuery</li>
+                    </ul>
+                  </figcaption>
+                </figure>
+                <div id="modal-3" class="modal" aria-modal="true" role="dialog">
+                  <div class="modal__container">
+                    <button class="modal__button" aria-label="閉じるボタン"><span class="modal__button--close"></span></button>
+                    <section class="project">
+                      <div class="project__inner">
+                        <h3 class="project__title">B社 ランディングページの作成</h3>
+                        <div class="project__summary">
+                          <p>
+                            運用も行なっているB社のランディングページのコーディングを単独で行いました。<br />
+                            デザイン段階での仕様変更が度重なり、コーディング期間が十分に取れない状況でしたが、ディレクターやデザイナーと連携を密に取り、期限内にコーディングとテストを終えることができました。
+                          </p>
+                        </div>
+                        <section class="project__info">
+                          <h4 class="project__info-title">担当</h4>
+                          <ul class="project__info-items">
+                            <li class="project__info-item">与件調査と開発工数見積もり</li>
+                            <li class="project__info-item">開発（コーディングとテスト）</li>
+                          </ul>
+                        </section>
+                        <section class="project__info">
+                          <h4 class="project__info-title">成果・実績</h4>
+                          <ul class="project__info-items">
+                            <li class="project__info-item">他の案件に入りながら、5日でコーディングからテストまで終えました。</li>
+                          </ul>
+                        </section>
+                        <section class="project__info">
+                          <h4 class="project__info-title">言語・ツール・環境</h4>
+                          <p>HTML, CSS, JavaScript, jQuery, Git, WinSCP, VSCode, Photoshop, XD, BackLog</p>
+                        </section>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </li>
+              <li class="works__item">
+                <figure class="works__figure" data-visible="false">
+                  <picture>
+                    <source media="(min-width: 1025px)" srcset="images/pc/img_works_04.webp" type="image/webp" />
+                    <source media="(min-width: 601px)" srcset="images/tab/img_works_04.webp" type="image/webp" />
+                    <source srcset="images/sp/img_works_04.webp" type="image/webp" />
+                    <source media="(min-width: 1025px)" srcset="images/pc/img_works_04.jpg 1x, images/pc/img_works_04@2x.jpg 2x" />
+                    <source media="(min-width: 601px)" srcset="images/tab/img_works_04.jpg 1x, images/tab/img_works_04@2x.jpg 2x" />
+                    <source srcset="images/sp/img_works_04.jpg 1x, images/sp/img_works_04@2x.jpg 2x" />
+                    <img
+                      class="works__image works__button"
+                      src="images/sp/img_works_04.jpg"
+                      alt="特定を避けるためにぼかしをいれたC社コーポレートサイトのファーストビューです。クリックすると詳細な情報が確認できます。"
+                      loading="lazy"
+                      decoding="async"
+                      role="button"
+                      tabindex="0"
+                      data-modal-id="modal-4"
+                    />
+                  </picture>
+                  <figcaption class="works__figcaption">
+                    C社 コーポレートサイト
+                    <ul class="works__tags">
+                      <li class="works__tag">運用・構築</li>
+                      <li class="works__tag">コーディング</li>
+                      <li class="works__tag">PHP</li>
+                      <li class="works__tag">jQuery</li>
+                      <li class="works__tag">WordPress</li>
+                    </ul>
+                  </figcaption>
+                </figure>
+                <div id="modal-4" class="modal" aria-modal="true" role="dialog">
+                  <div class="modal__container">
+                    <button class="modal__button" aria-label="閉じるボタン"><span class="modal__button--close"></span></button>
+                    <section class="project">
+                      <div class="project__inner">
+                        <h3 class="project__title">C社 コーポレートサイトの運用・構築案件</h3>
+                        <div class="project__summary">
+                          <p>
+                            未経験だったWordPress主体のC社コーポレートサイトの開発業務を2年ほど担当しました。<br />
+                            開発情報が乏しく先任エンジニアがいない状況でしたが、まずは過去の情報の精査とWordPressとPHPの理解に努め、最終的には、テンプレートの作成やプラグインの導入、カスタムタグを用いた機能実装などにも対応しました。
+                          </p>
+                        </div>
+                        <section class="project__info">
+                          <h4 class="project__info-title">担当</h4>
+                          <ul class="project__info-items">
+                            <li class="project__info-item">与件調査と開発工数見積もり</li>
+                            <li class="project__info-item">要件定義補助、基本設計</li>
+                            <li class="project__info-item">技術面からの助言（クライアント折衝含む）</li>
+                            <li class="project__info-item">開発（コーディングとテスト）</li>
+                            <li class="project__info-item">開発環境整備（マニュアル作成など）</li>
+                            <li class="project__info-item">育成（コードレビューなど）</li>
+                          </ul>
+                        </section>
+                        <section class="project__info">
+                          <h4 class="project__info-title">成果・実績</h4>
+                          <ul class="project__info-items">
+                            <li class="project__info-item">マニュアル整備によって、他のエンジニアが対応しやすい環境を整えました。</li>
+                            <li class="project__info-item">サイト内の数千ページに対するリダイレクトチェックを求められた際、GASでリダイレクトチェックツールを作成し、確認にかかる工数を50%以上削減しました。</li>
+                          </ul>
+                        </section>
+                        <section class="project__info">
+                          <h4 class="project__info-title">言語・ツール・環境</h4>
+                          <p>HTML, CSS, JavaScript, jQuery, PHP, WordPress, Git, WinSCP, VSCode, Photoshop, BackLog, AWS</p>
+                        </section>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </li>
+              <li class="works__item">
+                <figure class="works__figure" data-visible="false">
+                  <picture>
+                    <source media="(min-width: 1025px)" srcset="images/pc/img_works_05.webp" type="image/webp" />
+                    <source media="(min-width: 601px)" srcset="images/tab/img_works_05.webp" type="image/webp" />
+                    <source srcset="images/sp/img_works_05.webp" type="image/webp" />
+                    <source media="(min-width: 1025px)" srcset="images/pc/img_works_05.jpg 1x, images/pc/img_works_05@2x.jpg 2x" />
+                    <source media="(min-width: 601px)" srcset="images/tab/img_works_05.jpg 1x, images/tab/img_works_05@2x.jpg 2x" />
+                    <source srcset="images/sp/img_works_05.jpg 1x, images/sp/img_works_05@2x.jpg 2x" />
+                    <img
+                      class="works__image works__button"
+                      src="images/sp/img_works_05.jpg"
+                      alt="特定を避けるためにぼかしをいれたD社コーポレートサイトのファーストビューです。クリックすると詳細な情報が確認できます。"
+                      loading="lazy"
+                      decoding="async"
+                      role="button"
+                      tabindex="0"
+                      data-modal-id="modal-5"
+                    />
+                  </picture>
+                  <figcaption class="works__figcaption">
+                    D社 コーポレートサイト
+                    <ul class="works__tags">
+                      <li class="works__tag">運用・構築</li>
+                      <li class="works__tag">コーディング</li>
+                      <li class="works__tag">jQuery</li>
+                      <li class="works__tag">XAMPP</li>
+                      <li class="works__tag">Movable Type</li>
+                    </ul>
+                  </figcaption>
+                </figure>
+                <div id="modal-5" class="modal" aria-modal="true" role="dialog">
+                  <div class="modal__container">
+                    <button class="modal__button" aria-label="閉じるボタン"><span class="modal__button--close"></span></button>
+                    <section class="project">
+                      <div class="project__inner">
+                        <h3 class="project__title">D社 コーポレートサイトの運用・構築案件</h3>
+                        <div class="project__summary"></div>
+                        <p class="project__summary">
+                          D社コーポレートサイトの開発業務を2年半ほど担当しました。<br />
+                          開発情報が乏しく先任エンジニアがいない状況でのアサインでしたが、まずは過去の情報の精査を行って案件特徴を把握し、早期に適応しました。<br />
+                          リードエンジニアとして、運用案件からLP制作や一部リニューアルまで幅広く対応しました。
+                        </p>
+                        <section class="project__info">
+                          <h4 class="project__info-title">担当</h4>
+                          <ul class="project__info-items">
+                            <li class="project__info-item">与件調査と開発工数見積もり</li>
+                            <li class="project__info-item">要件定義補助、基本設計</li>
+                            <li class="project__info-item">技術面からの助言（クライアント折衝含む）</li>
+                            <li class="project__info-item">エンジニアのアサイン調整</li>
+                            <li class="project__info-item">開発（コードおよび画像の作成、Git 管理、テスト、公開作業など）</li>
+                            <li class="project__info-item">開発環境整備（マニュアルや効率化ツールの作成、ローカル環境構築など）</li>
+                            <li class="project__info-item">育成（コードレビュー、勉強会の実施など）</li>
+                          </ul>
+                        </section>
+                        <section class="project__info">
+                          <h4 class="project__info-title">成果・実績</h4>
+                          <ul class="project__info-items">
+                            <li class="project__info-item">マニュアル整備や業務フローの改善を主導して、安定した開発基盤を整えました。</li>
+                            <li class="project__info-item">Pythonにて各サーバーから任意のファイルを自動ダウンロードするツールや原稿からHTMLを自動作成するツールを作成し、特に後者では、90%程度の工数を削減しました。</li>
+                            <li class="project__info-item">開発工数の見積もりに当たっては、アサイン対象者の力量によって工数を適切に見積もり、遅延なく納品しました。</li>
+                            <li class="project__info-item">案件理解と技術レベルを評価され、与件についての調査を幅広く任されていました。</li>
+                          </ul>
+                        </section>
+                        <section class="project__info">
+                          <h4 class="project__info-title">言語・ツール・環境</h4>
+                          <p>HTML, CSS, bootstrap, JavaScript, jQuery, Python, XAMPP, Git, WinSCP, VSCode, Photoshop, XD, Figma, BackLog</p>
+                        </section>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="contact" class="section contact" data-info="target-section">
+          <div class="section__container">
+            <h2 data-visible="false">Contact</h2>
+            <p class="section__lead-text" data-visible="false">最後までご覧いただきありがとうございます。<br />本ポートフォリオページや私に対してのコメントがございましたら、以下のフォームをご利用ください。</p>
+            <form id="form" class="contact__form" method="post" data-visible="false" novalidate>
+              <div class="contact__category">
+                <label class="contact__label" for="name">お名前*</label>
+                <input id="name" class="contact__input" type="text" name="name" autocomplete="username" maxlength="30" placeholder="30文字以内で入力してください。" required />
+              </div>
+              <div class="contact__category">
+                <label class="contact__label" for="email">メールアドレス*</label>
+                <input id="email" class="contact__input" type="email" name="email" maxlength="50" autocomplete="email" placeholder="50文字以内で入力してください。" required />
+              </div>
+              <div class="contact__category">
+                <label class="contact__label" for="comment">コメント*</label>
+                <textarea id="comment" class="contact__textarea" name="comment" maxlength="300" placeholder="300文字以内で入力してください。" required></textarea>
+              </div>
+              <input id="submit" class="contact__submit" type="submit" value="送信" />
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <small class="footer__copyright">© 2024 kwsko All rights reserved</small>
+    </footer>
+    <script src="js/index.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js" integrity="sha384-+VfUPEb0PdtChMwmBcBmykRMDd+v6D/oFmB3rZM/puCMDYcIvF968OimRh4KQY9a" crossorigin="anonymous" async></script>
+  </body>
+</html>
