@@ -1,0 +1,15 @@
+@use 'variables' as *;
+@use 'mixin' as *;
+
+@include breakPoint('tablet') {
+}
+@include breakPoint('pc') {
+}
+.footer {
+  @include bg-dark;
+  padding: 16px 0;
+  text-align: center;
+}
+.footer__copyright {
+  font-size: 1.2rem;
+}

@@ -1,0 +1,114 @@
+@use 'variables' as *;
+@use 'mixin' as *;
+
+:root {
+  --scrollbar-width: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  &:has(.js-modal-show) {
+    overflow: hidden;
+    &,
+    .header {
+      padding-inline-end: var(--scrollbar-width, 0);
+    }
+  }
+}
+h1 {
+  font-size: 3.2rem;
+  text-align: center;
+  @include breakPoint('tablet') {
+    font-size: 4.8rem;
+  }
+}
+h2 {
+  margin-bottom: $spacing-5;
+  font-size: 3.2rem;
+  text-align: center;
+  @include breakPoint('tablet') {
+    font-size: 4rem;
+  }
+}
+h3 {
+  margin-bottom: $spacing-3;
+  font-size: 2.4rem;
+  @include breakPoint('tablet') {
+    font-size: 3.2rem;
+  }
+}
+h4 {
+  margin-bottom: $spacing-1;
+  font-size: 1.6rem;
+  @include breakPoint('tablet') {
+    font-size: 2.4rem;
+  }
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+p,
+a,
+li,
+button,
+dt,
+dd,
+label {
+  font-size: 1.4rem;
+  @include breakPoint('tablet') {
+    font-size: 1.6rem;
+  }
+}
+input,
+textarea {
+  font-size: 1.6rem;
+}
+p {
+  margin-bottom: 1em;
+  line-height: 1.7;
+}
+a {
+  line-height: 1em;
+  text-decoration: underline;
+}
+a,
+button,
+[role='button'],
+input,
+textarea {
+  cursor: pointer;
+}
+a:focus,
+button:focus,
+input[type='submit']:focus {
+  @include opacity-transition;
+}
+@include breakPoint('pc') {
+  a:hover,
+  button:hover,
+  input[type='submit']:hover {
+    @include opacity-transition;
+  }
+}
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  line-height: 1em;
+}
+figcaption {
+  margin-top: $spacing-1-half;
+  font-size: 1.4rem;
+  text-align: center;
+  @include breakPoint('tablet') {
+    margin-top: $spacing-2;
+  }
+}
